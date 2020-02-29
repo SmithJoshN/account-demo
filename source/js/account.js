@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function(){
 NAV.resetDemo.onclick = function(){
     if(confirm("Are you sure you want to reset? This will delete your account and progress.")){
         localStorage.removeItem("users");
-        window.location.replace("http://" + document.location.hostname + "/index.html");
+        window.location.replace("http://" + document.location.hostname + "/account-demo/index.html");
     }else{
         return false;
     }
