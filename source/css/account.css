@@ -1,0 +1,141 @@
+/* header */
+header{
+    background-color: #222;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+header .reset{
+    padding-left: 10px;
+    color: #ff0000;
+    font-family: sans-serif;
+}
+header .reset:hover{
+    font-weight: bold;
+}
+
+/* blocks */
+
+.blocks{
+    display: flex;
+    flex-wrap: wrap;
+}
+.block{
+    background-color: #444;
+    border-radius: 10px;
+    margin: 10px;
+    transition: all 1s ease;
+    animation: boxpop 1s;
+}
+.audio-wrapper, .video-wrapper, .canvas-wrapper{
+    display: none;
+}
+.audio-wrapper{
+    height: calc(100% - 43.5px);
+    position: relative;
+}
+
+.block-heading{
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #444;
+}
+.heading-title{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+/* block body */
+.block-body{
+    height: 100%;
+    overflow-y: scroll;
+    padding: 0px 10px;
+    background-color: #555;
+}
+.block-body::-webkit-scrollbar {
+    width: 7px;
+}
+.block-body::-webkit-scrollbar-track {
+    background: #555; 
+}
+.block-body::-webkit-scrollbar-thumb {
+    background: #666; 
+}
+.block-body::-webkit-scrollbar-thumb:hover{
+    background-color: #444;
+}
+
+.audio-wrapper audio{
+    width: 100%;
+}
+.expand-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+    transition: transform 1s;
+    padding: 2px;
+}
+.expand-btn:hover{
+    background-color: #555;
+}
+.expand-btn img{
+    height: 15px;
+    width: auto;
+    fill: #fff;
+}
+.music-list{
+    overflow-y: hidden;
+}
+.music-title{
+    color: #888;
+    padding: 10px 0px;
+}
+
+@keyframes boxpop {
+    from {
+        height: 0px;
+        width: 0px;
+    }
+    to { 
+        height: 300px;
+        width: 300px;
+    }
+}
+
+
+.video-wrapper{
+    height: 100%;
+    position: relative;
+}
+.video-body{
+    height: calc(100% - 43.5px);
+    padding: 0px 5px;
+}
+video{
+    margin: 30px 0px;
+    width: 100%;
+}
+.video-expand-btn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+.video-expand-btn img{
+    width: 15px;
+    height: 15px;
+}
+
+canvas{
+    width: 100%;
+    height: 75%;
+    margin: 30px 0px;
+}
+.display-name{
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    font-family: sans-serif;
+}

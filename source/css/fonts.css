@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.f-nav-title{
+    font-family: 'Exo', sans-serif;
+    font-size: 24px;
+}
+.f-nav-link{
+    text-decoration: none;
+    color: #777;
+    font-family: 'Gentium Basic', serif;
+    font-size: 18px;
+    transition: font-size .5s ease;
+}
+.f-nav-link:hover{
+    font-size: 19px;
+    color: #fff;
+}
+.f-byu{
+    color: #065A82;
+}
+.f-i{
+    color: #FFF;
+}
+.f-name{
+    color: #999;
+}
+.f-cs{
+    color: #777;
+}
+.f-sign-up{
+    font-size: 22px;
+    color: aquamarine;
+}
+.f-sign-up-q{
+    font-size: 18px;
+    color: aquamarine;
+}
+.f-header-p1{
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    text-align: center;
+}

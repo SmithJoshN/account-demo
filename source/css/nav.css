@@ -1,0 +1,66 @@
+/*
+Contains nav keyword classes
+*/
+
+.nav-main{
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    overflow: auto;
+    transition: max-height 1s ease;
+}
+
+.nav-title{
+    flex: 1;
+    padding: 10px;
+}
+.nav-btn{
+    flex: 1;
+}
+.nav-color-scheme{
+    flex: 1;
+}
+
+@media all and (max-width: 500px) {
+    .nav-links{
+        display: none;
+        width: 100vw;
+    }
+    .nav-link{
+        padding: 10px;
+    }
+    .nav-link:active{
+        background-color: #555;
+    }
+    .nav-mobile-menu{
+    }
+    .nav-mobile-menu button{
+        background-color: transparent;
+        border: none;
+    }
+    .nav-mobile-menu img{
+        width: 50px;
+        background-color: transparent;
+    }
+
+}
+@media all and (min-width: 500px) {
+    .nav-mobile-menu{
+        display: none;
+    }
+    .nav-links{
+        display: block;
+        flex: 1;
+        text-align: end;
+        margin-right: 60px;
+    }
+    .nav-link{
+        display: inline;
+        padding-left: 10px;
+    }
+}

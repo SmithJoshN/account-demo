@@ -1,0 +1,27 @@
+header{
+    background-color: aquamarine;
+}
+main{
+    background-color: #555;
+}
+.lock-bg{
+    background-image: url(../../assets/images/lock.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+}
+.account-bg{
+    background-image: url(../../assets/images/account.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+}
+.name-bg{
+    background-image: url(../../assets/images/name.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+}

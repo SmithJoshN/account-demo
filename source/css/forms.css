@@ -1,0 +1,45 @@
+.sign-up-form{
+    width: 40%;
+    margin: 0px auto;
+    padding: 10px;
+}
+.sign-up-title{
+    padding: 10px;
+}
+.sign-up-q{
+    padding: 10px;
+}
+.sign-up{
+    border-radius: 50px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: aquamarine;
+    outline: none;
+    display: block;
+    font-size: 16px;
+    transition: width 0.75s ease-out;
+    margin-bottom: 20px;
+    text-indent: 30px;
+}
+.sign-up:focus::placeholder{
+    color: #888;
+}
+.sign-up:hover {
+    cursor: pointer;
+}
+.sign-up.login-btn{
+    margin-bottom: 20px;
+    border-radius: 50px;
+    height: 50px;
+    width: 100%;
+    border: none;
+    background-color: aquamarine;
+}
+.sign-up.login-btn:hover{
+    background-color: #fff;
+}
+.sign-up.login-btn:active{
+    background-color: #555;
+}
+/*<div>Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>*/

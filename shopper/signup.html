@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopper - Sign Up</title>
+    <link rel="stylesheet" href="../source/css/nav.css">
+    <link rel="stylesheet" href="../source/css/global.css">
+    <link rel="stylesheet" href="../source/css/fonts.css">
+    <link rel="stylesheet" href="shopper.css">
+</head>
+<body>
+    <nav class="nav-main" id="navbar">
+        <div class="nav-title f-nav-title">
+            <a href="index.html" ><span class="f-name">Josh Smith</span> <span class="f-byu">BYU</span><span class="f-i">I</span></a>
+        </div>
+        <div class="nav-mobile-menu">
+            <button id="menu-toggle"><img src="assets/icons/hamburger-menu.png" alt=""></button>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <div class="nav-link"><a href="" class="f-nav-link">Projects</a></div>
+            <div class="nav-link"><a href="" class="f-nav-link">Courses</a></div>
+            <div class="nav-link"><a href="" class="f-nav-link">Contact</a></div>
+        </div>
+    </nav>
+    <div class="heading">
+        <div class="title">Sign Up</div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="invalid-erro" id="formInvalid"></div>
+                <div class="first-name">
+                    <label for="">First Name</label>
+                    <input type="text" id="first-name">
+                </div>
+                <div class="last-name">
+                    <label for="">Last Name</label>
+                    <input type="text" id="last-name">
+                </div>
+                <div class="user-exists" id="exists"></div>
+                <div class="username">
+                    <label for="">Username</label>
+                    <input type="text" id="username">
+                </div>
+                <div class="password">
+                    <label for="">Password</label>
+                    <input type="password" name="" id="password">
+                </div>
+                <div class="password-not-match" id="notMatch"></div>
+                <div class="repeat-password">
+                    <label for="">Repeat Password</label>
+                    <input type="password" id="match-password">
+                </div>
+                <div class="sign-up">
+                    <button id="submit">Sign Up</button>
+                </div>
+        </div>
+    </div>
+    <script src="../source/js/sign-up.js"></script>
+</body>
+</html>
